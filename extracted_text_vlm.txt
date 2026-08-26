@@ -1,0 +1,31 @@
+Q.2. What is the difference BOD and COD?
+
+• BOD (Biochemical Oxygen Demand) measure the
+amount of oxygen required by microorganisms
+to break down organic matter in
+water over a specific period (usually
+5 days at 20°C). It indicates
+the level of organic pollution.
+
+• COD (Chemical Oxygen Demand) measures the
+total oxygen required to chemically
+oxidize both organic and inorganic
+substances in water. It provides
+a broader indication of water pollution.
+
+Key difference: BOD reflects biodegradable
+organic pollution, while COD measures
+total oxygen demand, including both
+biodegradable and non-biodegradable substance.
+COD values are typically higher than BOD.
+
+Q.3. How does hardness affect water quality?
+
+Hardness in water, caused by dissolved
+minerals like calcium and magnesium,
+affects water quality by making it
+less suitable for cleaning, as it reduces
+soap effectiveness and can cause
+scale buildup in pipes and appliances.
+It can also impact life, as some
+species are sensitive to high

@@ -104,6 +104,6 @@ def preprocess(image_path: str, output_dir: str = OUTPUT_DIR) -> tuple[np.ndarra
 
 
 if __name__ == "__main__":
-    sample_path = os.path.join("input", "sample_answer.jpg")
+    sample_path = os.path.join("input", "download (5).jpg")
     if os.path.exists(sample_path):
         preprocess(sample_path)

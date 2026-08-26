@@ -7,7 +7,6 @@ import cv2
 import numpy as np
 
 
-# ponytail: lazy-load heavy models on demand
 @lru_cache(maxsize=1)
 def load_paddleocr():
     try:
@@ -162,11 +161,12 @@ def process_image(image_input: str | np.ndarray, confidence_threshold: float = 0
 
 
 if __name__ == "__main__":
-    for filename in ["enhanced_gray.jpg", "threshold.jpg"]:
-        path = os.path.join("output", filename)
-        if os.path.exists(path):
-            print(f"\n--- Testing {filename} ---")
-            res = process_image(path)
-            print(f"Total blocks for {filename}: {len(res)}")
-            if res:
-                print("First 3 blocks sample:", res[:3])
+    path = "output/2fca7d6c/enhanced_gray.jpg"
+    if os.path.exists(path):
+        print(f"\n--- Testing {path} ---")
+        res = process_image(path)
+        print(f"Total blocks for {path}: {len(res)}")
+        if res:
+            print("First 3 blocks sample:", res[:3])
+    else:
+        print(f"File {path} not found.")
